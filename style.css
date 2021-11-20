@@ -37,3 +37,8 @@ body{
 .menu_topo a:hover{
     color: #69001d;
 }
+body.home .menu_topo a#home{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
