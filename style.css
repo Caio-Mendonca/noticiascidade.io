@@ -37,7 +37,12 @@ body{
 .menu_topo a:hover{
     color: #69001d;
 }
-body.home .menu_topo a#home{
+body.home .menu_topo a#home,
+body.brasil .menu_topo a#brasil,
+body.internacional .menu_topo a#internacional,
+body.saude .menu_topo a#saude,
+body.ciencia .menu_topo a#ciencia,
+body.fotos .menu_topo a#fotos{
     color: #fff;
     background: #de003e;
     cursor: text;
