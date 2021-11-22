@@ -1,0 +1,77 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(./imagens/fundo.png)repeat-x;
+}
+.container{
+    width: 750px;
+    margin: 0 auto;
+}
+.topo{
+    height: 150px;
+    background: url(./imagens/detalhe-topo.png) no-repeat right top;
+    margin-top: 10px;
+    padding-top: 25px;
+}
+.menu_topo{
+    margin-top: -45px;
+    background: #b10333;
+    
+}
+.menu_topo a{
+    background: #b10333 url(./imagens/divisor.png) no-repeat left;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 2.1em;
+    text-decoration: none;
+    color:#fff;
+    
+}
+.menu_topo a:first-child{
+    background: #b10333;
+}
+.menu_topo a:hover{
+    color: #69001d;
+}
+body.home .menu_topo a#home,
+body.brasil .menu_topo a#brasil,
+body.internacional .menu_topo a#internacional,
+body.saude .menu_topo a#saude,
+body.ciencia .menu_topo a#ciencia,
+body.fotos .menu_topo a#fotos{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+.conteudo{
+    margin-top: 100px;
+    background: #f5f5f5;
+
+}
+.central{
+    width: 270px;
+    float: left;
+}
+.central_direita{
+    width: 270px;
+    float: left;
+}
+.esquerda{
+    width: 180px;
+    float: left;
+}
+footer{
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+.rodape{
+   width: 750px;
+   margin: 0 auto;
+   color: #fff; 
+   text-align: center;
+}
