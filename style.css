@@ -64,11 +64,14 @@ body.fotos .menu_topo a#fotos{
     width: 180px;
     float: left;
 }
+footer{
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
 .rodape{
    width: 750px;
    margin: 0 auto;
-   color: rgb(175, 85, 85); 
-   clear: both;
-   background: #294c71;
-   padding: 20px;
+   color: #fff; 
+   text-align: center;
 }
