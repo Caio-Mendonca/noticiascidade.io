@@ -47,3 +47,16 @@ body.fotos .menu_topo a#fotos{
     background: #de003e;
     cursor: text;
 }
+.conteudo{
+    margin-top: 100px;
+    background: #f5f5f5;
+}
+.central{
+    width: 270px;
+}
+.direita{
+    width: 270px;
+}
+.esquerda{
+    width: 180px;
+}
