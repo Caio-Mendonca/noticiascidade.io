@@ -55,14 +55,17 @@ body.fotos .menu_topo a#fotos{
 .central{
     width: 270px;
     float: left;
+    margin: 0 0 20px 195px;
 }
 .central_direita{
     width: 270px;
     float: left;
+    margin: 0 0 20px 15px;
 }
 .esquerda{
     width: 180px;
     float: left;
+    margin: 0 0 20px -750px;
 }
 footer{
     background: #294c71;
@@ -73,5 +76,5 @@ footer{
    width: 750px;
    margin: 0 auto;
    color: #fff; 
-   text-align: center;
+   text-align: left;
 }
