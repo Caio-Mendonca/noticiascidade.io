@@ -52,18 +52,18 @@ body.fotos .menu_topo a#fotos{
     background: #f5f5f5;
 
 }
-.central .tres_colunas{
+.central, #tres_colunas{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
 }
-.central .duas_colunas{
+#duas_colunas{
     width: 555px;
     float: left;
     margin: 0 0 20px 195px;
 }
-.central .uma_coluna{
-    width: 555px;
+#uma_coluna{
+    width: 750px;
     float: left;
     margin: 0 0 20px 0px;
 }
