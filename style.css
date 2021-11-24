@@ -83,9 +83,30 @@ body.fotos .menu_topo a#fotos{
     background: #f3f3f3 url(./imagens/fundo-caixa.png);
 }
 .box h2{
-    font-size: 1.1em;
+    font-size: 1em;
     background: #294c71;
     color: #fff;
+    padding: 5px;
+}
+/* Formatação menu lateral*/
+.menu_lateral{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+.menu_lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+    
 }
 footer{
     background: #294c71;
