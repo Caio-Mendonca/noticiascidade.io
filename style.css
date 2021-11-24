@@ -89,7 +89,7 @@ body.fotos .menu_topo a#fotos{
     padding: 5px;
 }
 /* Formatação menu lateral*/
-.menu_lateral, .destaques{
+.menu_lateral, .destaques, .entrevistas{
     background: #fff;
     padding: 5px;
     margin-top: 5px;
@@ -107,7 +107,7 @@ ul{
     text-decoration: none;
     border-bottom: 1px solid #f3f3f3;
 }
-ul a:hover{
+.menu_lateral ul a:hover{
     color: #a1a1a1;
     margin-left: 15px;
     background: #f9f9f9 url(./imagens/marcador.png) no-repeat left center;
@@ -118,16 +118,34 @@ ul a:hover{
     display: block;
 }
 /* Formatação primeiro menu de exibição */
-.destaques img{
+.destaques img,
+.entrevistas img{
     border: 4px solid #dfdfdf;
 }
-.destaques h3{
-    background: #b10333;
+h3{
+    background: #dfdfdf;
     text-transform: uppercase;
     font-size: 0.8em;
     padding: 5px;
     display: inline;
+    color: #000;
+    border-radius: 15px 15px 0 0;
 }
+/* Menu inferior*/
+#lista-noticias{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a{
+    text-decoration: none;
+    font-size: 0.6em;
+}
+
 /*Rodapé*/
 footer{
     background: #294c71;
