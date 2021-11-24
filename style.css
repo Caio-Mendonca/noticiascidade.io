@@ -106,7 +106,12 @@ ul{
     color: #000;
     text-decoration: none;
     border-bottom: 1px solid #f3f3f3;
-    
+}
+ul a:hover{
+    color: #a1a1a1;
+    margin-left: 15px;
+    background: #f9f9f9 url(./imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
 }
 footer{
     background: #294c71;
