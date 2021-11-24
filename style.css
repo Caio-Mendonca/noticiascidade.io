@@ -132,10 +132,11 @@ h3{
     border-radius: 15px 15px 0 0;
 }
 /* Menu inferior*/
-#lista-noticias{
+#lista-noticias li{
     padding: 2px;
     border-bottom: 1px solid #ccc;
     height: 65px;
+    display: inline-block;
 }
 #lista-noticias li a img{
     float: left;
