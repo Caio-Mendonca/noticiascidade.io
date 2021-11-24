@@ -135,7 +135,7 @@ h3{
 #lista-noticias li{
     padding: 2px;
     border-bottom: 1px solid #ccc;
-    height: 65px;
+    height: 62px;
     display: inline-block;
 }
 #lista-noticias li a img{
@@ -144,9 +144,19 @@ h3{
 }
 #lista-noticias li a{
     text-decoration: none;
-    font-size: 0.6em;
 }
-
+#lista-noticias li p{
+    font-size: 0.7em;
+}
+#lista-noticias li h4{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9
+}
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
 /*Rodapé*/
 footer{
     background: #294c71;
